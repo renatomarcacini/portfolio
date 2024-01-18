@@ -321,6 +321,8 @@ small {
 .game-project-image img{
     height: 175px;
     transition: 0.3s;
+    display: block;
+    margin: 0 auto;
 }
 
 .game-project-image img:hover{
@@ -376,7 +378,7 @@ small {
 .current-project-image{
     display: block;
     margin: 0 auto;
-    height: 300px;
+    width: 70%;
 }
 
 .current-project-title{
