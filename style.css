@@ -9,6 +9,10 @@ body {
     margin: 15px;
 }
 
+.box li{
+    font-size: 15px !important;
+}
+
 .box a{
     color: #CC1718;
     
@@ -36,6 +40,10 @@ h1, h4{
     background-color: #CC1718 !important;
 }
 
+hr{
+    border-color: #5e5e5ea8 !important;
+}
+
 
 /* #author,
 #game,
@@ -57,6 +65,7 @@ h1, h4{
 
 .author-introduction{
     text-align: justify;
+    font-size: 21px;
 }
 
 .social{
@@ -154,8 +163,9 @@ h1, h4{
     max-width: 300px;
     margin: 15px auto 0 auto;
     color: #CC1718;
-    
 }
+
+
 
 .game-grid {
     border: 1px solid #080a0c;
@@ -297,3 +307,109 @@ small {
 .download-link img{
     height: 35px;
 }
+
+
+/* ------- NEW ADDITIONS ------ */
+.game-project{
+    background-color: #000000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.game-project-image img{
+    height: 175px;
+    transition: 0.3s;
+}
+
+.game-project-image img:hover{
+    opacity: 50%;
+}
+
+.game-project-title{
+    margin: 0;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    color: white;
+}
+
+.game-project-title a{
+    color: white;
+}
+
+.game-project-title a:hover{
+    color: white;
+}
+
+.game-project-description{
+    margin: 0;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    font-size: 18px;
+    text-align: justify;
+
+}
+
+.game-project-link{
+    margin: 0;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+
+    
+}
+
+.game-project-link:hover{
+    color: white;
+}
+
+.game-project-link-logo{
+    height: 35px;
+    margin-right: 5px;
+}
+
+.current-project-image{
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.current-project-title{
+    text-align: center;
+}
+
+.current-project-title a{
+    text-align: center;
+    color: white !important;
+}
+
+.current-project-description{
+    text-align: center;
+    font-size: 17px;
+    text-align: justify;
+
+}
+
+.current-project-link{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: white !important;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.current-project-link-logo{
+    text-align: center;
+    height: 30px;
+    margin-right: 5px;
+}
+
