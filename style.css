@@ -532,4 +532,13 @@ small {
     .modal-content {
         width: 100%;
     }
+
+    .current-project-image{
+        width: 100% !important;
+    }
+
+    .current-project-arts{
+        display: block !important;
+    }
 }
+
