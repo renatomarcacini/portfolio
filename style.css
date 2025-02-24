@@ -1,5 +1,10 @@
+#author, #game{
+    scroll-margin-top: 50px; 
+}
+
 body {
     background-color: #000000 !important;
+    padding-top: 70px;
 }
 
 .box {
@@ -43,6 +48,36 @@ h4 {
 
 hr {
     border-color: #5e5e5ea8 !important;
+}
+
+.nav-side-bar{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #191C24;
+    z-index: 99;
+    border-bottom: 2px solid black;
+
+}
+
+.nav-side-bar a{
+    background-color: #191C24;
+
+    display: inline-block;
+    width: 150px;
+    padding: 12px;
+    border: 1px solid #191C24;
+    color: #CC1718;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.nav-side-bar a:hover{
+    background-color: #CC1718;
+    color: white;
+    border: 1px solid #CC1718;
+    text-decoration: none;
 }
 
 
