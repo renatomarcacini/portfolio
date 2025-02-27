@@ -101,7 +101,7 @@ hr {
 
 .author-introduction {
     text-align: justify;
-    font-size: 21px;
+    font-size: 24px;
 }
 
 .social {
@@ -575,5 +575,63 @@ small {
     .current-project-arts{
         display: block !important;
     }
+}
+
+.test{
+    margin-top: -15px;
+    background-color: #0c0d11;
+    padding-bottom: 15px;
+}
+
+.test img{
+
+    width: 105%;
+    margin-left: -15px;
+
+    border-right: 2px solid rgb(63, 19, 19);
+    border-bottom: 2px solid rgb(63, 19, 19);
+}
+
+.test h1, h3{
+    width: 100%;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Espaço entre os links */
+}
+
+.link-box {
+    display: flex;
+    align-items: center;
+    background-color: #292c36;
+    color: #CC1718;
+    text-decoration: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 2px;
+    transition: background 0.3s;
+    font-weight: bold;
+    
+}
+
+.link-box:hover {
+    background-color: #30343d;
+    text-decoration: none;
+    color: white;
+}
+
+.link-box img {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-right: -15px; /* Espaço entre o ícone e o texto */
+}
+
+.link-box .title {
+    flex: 1;
+    text-align: center;
+    font-size: 16px;
 }
 
